@@ -1,15 +1,39 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+#project-wrap .navbar {
+   
+    background-color:#ececec;
+    padding-top: 5px;
+    text-align: center;
 
-        <script src="script.js"></script>
-        <link href="style.css" rel="stylesheet">
-        <title>To Do List</title>
-    </head>
-    <body>
-    	<h2>Monkey</h2>
-    </body>
-</html>
+
+}
+
+#project-wrap .navbar-image{
+	display: inline-block;
+
+}
+
+#project-wrap .navbar-brand {
+    color: #646565;
+    font-weight:lighter;
+    font-size:30px;
+    margin-top: 4px;
+
+}
+
+#project-wrap .nav li a {
+    color: #025F83;
+    font-weight:lighter;
+    font-size:16px;
+    margin-top: 4.5px;
+
+}
+
+img {
+	margin-top: -20px;
+	height: 80px;
+	width: 80px;
+}
+
+span {
+	color: #025F83;
+}
