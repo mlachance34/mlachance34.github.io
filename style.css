@@ -1,39 +1,116 @@
-#project-wrap .navbar {
-   
-    background-color:#ececec;
-    padding-top: 5px;
-    text-align: center;
-
-
+a {
+	color: #919710;
 }
 
-#project-wrap .navbar-image{
-	display: inline-block;
-
-}
-
-#project-wrap .navbar-brand {
-    color: #646565;
-    font-weight:lighter;
-    font-size:30px;
-    margin-top: 4px;
-
-}
-
-#project-wrap .nav li a {
-    color: #025F83;
-    font-weight:lighter;
-    font-size:16px;
-    margin-top: 4.5px;
-
-}
-
-img {
-	margin-top: -20px;
-	height: 80px;
-	width: 80px;
+a:hover{
+	color: #1e6569
 }
 
 span {
-	color: #025F83;
+	color: #1e6569;
 }
+h2 {
+	color: #185356;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+#header {
+	background-color: #091e20;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1200;
+}
+
+#section1 {
+	background: url('images/honeycomb_1.png');
+	background-color: #082124;
+	height: 100%;
+
+}
+
+.section2 {
+	background-color: #FFFFFF;
+	height: 100%;
+
+}
+
+#header_text {
+	text-align: left;
+	font-weight: lighter;
+	padding-left: 240px
+
+}
+
+.navbar-text {
+	font-size: 50px;
+	font-weight: lighter;
+	color: #ffffff;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+.navbar-text a:hover{
+	font-size: 50px;
+	font-weight: lighter;
+	color: #919710;
+	text-decoration: none;
+
+
+}
+
+.navbar-right {
+ 	font-size: 30px;
+	font-weight: lighter;
+	color: #919710;
+	padding-right: 40px;
+	padding-top: 25px;
+
+}
+
+.navbar-right li a:hover {
+	background: none;
+}
+
+
+.bee-image {
+	padding-top: 180px;
+}
+
+.arrow {
+	padding-top: 45px;
+	padding-bottom: 100px;
+}
+.Wild_oats {
+	padding-top: 60px;
+
+}
+#section1 .fp-controlArrow.fp-prev {
+	border: none;
+	background: url('images/arrow_prev.png')
+	no-repeat;
+	width: 60px;
+	height:60px;
+}
+
+#section1 .fp-controlArrow.fp-next {
+	border: none;
+	background: url('images/arrow_next.png')
+	no-repeat;
+	width:60px;
+	height:60px;
+}
+#home-link {
+color:#FFFFFF;
+}
+
+
+
+
+
+
+

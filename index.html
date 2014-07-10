@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="script.js"></script>
         <link href="style.css" rel="stylesheet">
+        <link href='jquery.fullPage.css' rel='stylesheet'>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="vendors/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script src="script.js"></script>
         <title>Melissa LaChance</title>
     </head>
-    <body id="project-wrap">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                   <a class="navbar-brand" href="#">Melissa <span>LaChance</span></a>
-                 </div>
-                 <div class="navbar-image">
-                      <img src=images/bee.png></img>
-                 </div>
-                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class='selected' href="index.html">ABOUT</a></li>
-                    <li><a href="work.html">WORK</a></li>
-                    <li><a href="work.html">SKILLS</a></li>
-                    <li><a href="work.html">CONNECT</a></li>
+    <body id='section1'>
+        <div id='header' class="container-fluid">
+            <div>
+                <h1 class="navbar-text col-md-6 col-sm-6"><a id='home-link' href="#home"> Melissa <span>LaChance</span></a></h1>
+                <ul id='menu' class="nav navbar-nav navbar-right">
+                        <li data-menuanchor='work'><a href="#work">Work</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="work.html">Connect</a></li>
                 </ul>
+                
             </div>
-        </nav>
+        </div>
+        <div id='fullpage'>
+            <div class="section active" data-menuanchor='work'>
+                <div class="text-center bee-image"><img src="Images/bee_hero.png"/></div>
+                <div class="text-center arrow"><img src="Images/arrow-blue.png"/></div>
+            </div>
+            <div class="section" data-menuanchor='work'>
+                <div class="slide" data-anchor='slide1'>
+                    <div class='text-center Wild_oats'>
+                        <h1 id="header_text" class="col-md-6 col-sm-6"></h1>
+                        <img src="Images/slide_1.png"/>
+                    </div>
+                </div>
+                <div class="slide" data-anchor='slide2'>
+                    <div class='text-center Wild_oats'>
+                        <img src="Images/slide_2.png"/>
+                    </div>
+                </div>
+                <div class="slide" data-anchor='slide3'>
+                    <div class='text-center Wild_oats'>
+                        <img src="Images/slide_3.png"/>
+                        <span class="toSlide" data-index="3"></span>
+                    </div>
+                </div>
+                <div class="slide" data-anchor='slide4'>
+                    <div class='text-center Wild_oats'>
+                        <img src="Images/slide_4.png"/>
+                        <span class="toSlide" data-index="3"></span>
+                    </div>
+                </div>
+                <div class="slide" data-anchor='slide5'>
+                    <div class='text-center Wild_oats'>
+                        <img src="Images/slide_5.png"/>
+                        <span class="toSlide" data-index="3"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+
     </body>
 </html>
